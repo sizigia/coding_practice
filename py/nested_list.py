@@ -12,11 +12,10 @@ if __name__ == '__main__':
 
     py_students.sort(key=lambda x: x[0])
 
-    second_lowest = sorted([i for i in py_students if i[0]
-                            > py_students[0][0] and i[0] <= py_students[1][0]])
+    second_lowest = sorted([student for student in py_students if student[0]
+                            > py_students[0][0]])
 
-    print("\n".join(sorted([i[1] for i in second_lowest])))
-
+    print("\n".join(sorted([i[1] for i in second_lowest if i[0]<= second_lowest[0][0]])))
 
 
 # Sample Input:
