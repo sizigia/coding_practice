@@ -1,17 +1,19 @@
 function pairElement(str) {
-    let base = [['A', 'T'], ['C', 'G']];
+    let at = 'AT',
+        gc = 'GC';
     return str.split('').map(x => {
-        switch (x) {
-            case 'A':
-                return ['A', 'T'];
-            case 'T':
-                return ['T', 'A'];
-            case 'G':
-                return ['G', 'C'];
-            case 'C':
-                return ['C', 'G'];
+        if (at.includes(x)) {
+            if (at.indexOf(x) == 1) {
+                return at.split('').reverse();
+            }
+            return at.split('');
+        } else {
+            if (gc.indexOf(x) == 1) {
+                return gc.split('').reverse();
+            }
+            return gc.split('');
         }
-    })
+    });
 }
 
 console.log(pairElement("GCG"));
