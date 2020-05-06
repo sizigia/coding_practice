@@ -13,10 +13,4 @@ summation(8) -> 36
 
 
 def summation(num):
-    sum_ = 0
-
-    while num:
-        sum_ += num
-        num -= 1
-
-    return sum_
+    return sum(range(1, num + 1))
