@@ -1,0 +1,8 @@
+let sample = "Whitespace is important in separating words";
+let countNonWhiteSpace = /\S/g; // Change this line
+let result = sample.match(countNonWhiteSpace).length;
+
+console.log(result);
+console.log("Men are from Mars and women are from Venus.".match(countNonWhiteSpace).length)
+console.log("Space: the final frontier.".match(countNonWhiteSpace).length)
+console.log("MindYourPersonalSpace".match(countNonWhiteSpace).length)
