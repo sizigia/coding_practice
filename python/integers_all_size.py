@@ -22,12 +22,8 @@ Integers a, b, c, and d are given on four separate lines, respectively.
 Output Format 
 Print the result of a^b + c^d on one line.
 """
+a, b, c, d = (int(input()) for _ in range(4))
 
 if __name__ == '__main__':
-    a = int(input())
-    b = int(input())
-    c = int(input())
-    d = int(input())
-    print(a ** b + c ** d)
-    if a == 9 and b == 29 and c == 7 and d == 27:
-        print(a**b + c**d == 4710194409608608369201743232)
+    res = a ** b + c ** d
+    assert (a**b + c**d) == 4710194409608608369201743232
