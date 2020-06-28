@@ -14,8 +14,9 @@ def fizzbuzz(start=1, end=101):
     """
 
     s = ""
+    end += 1
 
-    for _ in range(start, end + 1):
+    for _ in range(start, end):
         if _ % 3 == 0:
             s += 'Fizz'
 
@@ -25,7 +26,7 @@ def fizzbuzz(start=1, end=101):
         if len(s) == 0:
             s = _
 
-        if _ == 100:
+        if _ == end:
             return s
 
         print(s)
@@ -33,4 +34,4 @@ def fizzbuzz(start=1, end=101):
 
 
 if __name__ == "__main__":
-    fizzbuzz(8, 16)
+    fizzbuzz(8, 20)
