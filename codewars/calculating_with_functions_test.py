@@ -1,5 +1,5 @@
 import unittest
-from calc_with_func import *
+from calculating_with_functions import *
 
 
 class CalcWithFunctions(unittest.TestCase):
