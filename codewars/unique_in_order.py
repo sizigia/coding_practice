@@ -1,5 +1,5 @@
 """
-https://www.codewars.com/kata/54e6533c92449cc251001667/train/python
+https://www.codewars.com/kata/54e6533c92449cc251001667
 
 Implement the function unique_in_order which takes as 
 argument a sequence and returns a list of items without 
@@ -26,5 +26,4 @@ def unique_in_order(iterable):
         if a != b:
             new_list.append(a)
 
-            
     return new_list

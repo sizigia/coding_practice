@@ -1,5 +1,5 @@
 import unittest
-from list_squared import list_squared
+from integers_recreation_one import list_squared
 
 
 class ListSquaredTest(unittest.TestCase):
