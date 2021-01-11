@@ -1,5 +1,5 @@
 import unittest
-from reverse_seq import reverse_seq
+from reverse_sequence import reverse_seq
 
 
 class ReverseSequenceTest(unittest.TestCase):

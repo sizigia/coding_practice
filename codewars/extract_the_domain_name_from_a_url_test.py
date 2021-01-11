@@ -1,5 +1,5 @@
 import unittest
-from domain_url import domain_name
+from extract_the_domain_name_from_a_url import domain_name
 
 
 class DomainNameFromURL(unittest.TestCase):

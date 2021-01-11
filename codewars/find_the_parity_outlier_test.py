@@ -1,5 +1,5 @@
 import unittest
-from find_outlier import find_outlier
+from find_the_parity_outlier import find_outlier
 
 
 class FindOutlierTest(unittest.TestCase):

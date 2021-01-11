@@ -1,5 +1,5 @@
 import unittest
-from hashtag_gen import generate_hashtag
+from the_hashtag_generator import generate_hashtag
 
 
 class TestHashtagGenerator(unittest.TestCase):

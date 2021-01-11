@@ -1,5 +1,5 @@
 """
-https://www.codewars.com/kata/53dc23c68a0c93699800041d/solutions/python
+https://www.codewars.com/kata/53dc23c68a0c93699800041d
 Write a method smash that takes an array of words and smashes them together into a sentence and returns the sentence. You can ignore any need to sanitize words or add punctuation, but you should add spaces between each word. Be careful, there shouldn't be a space at the beginning or the end of the sentence!
 
 Example
@@ -17,6 +17,7 @@ We're testing basic loops and string manipulation. This is for beginners who are
 Disclaimer
 This is for beginners so we want to test basic loops and string manipulation. Advanced users should easily be able to do this in one line.
 """
+
 
 def smash(words):
     return ' '.join(words)
