@@ -1,5 +1,5 @@
 import unittest
-from alphabet_position import alphabet_position
+from replace_with_alphabet_position import alphabet_position
 from random import randint
 
 
