@@ -39,5 +39,8 @@ Print N-1 lines as explained above.
 """
 
 # More than 2 lines will result in 0 score. Do not leave a blank line.
-for i in range(1, int(input())):
-    print(int(sum([i * 10 ** (j - 1) for j in range(i + 1)])))
+
+
+def triangle_quest_print():
+    for i in range(1, int(input())):
+        print(i * 10 ** (i - 1))
