@@ -24,3 +24,9 @@ A defanged IP address replaces every period `"."` with `"[.]"`.
 #### Constraints:
 
 - The given `address` is a valid IPv4 address.
+
+# Submission Detail
+**62 / 62** test cases passed.    
+Status: ***Accepted***  
+Runtime: **12 ms**, faster than **93.80%** of Python online submissions for Defanging an IP Address.  
+Memory Usage: **13.5 MB**, less than **34.51%** of Python online submissions for Defanging an IP Address.
