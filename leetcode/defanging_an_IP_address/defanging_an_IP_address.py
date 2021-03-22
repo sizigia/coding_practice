@@ -4,4 +4,5 @@ class Solution(object):
         :type address: str
         :rtype: str
         """
-        pass
+
+        return address.replace(".", "[.]")
