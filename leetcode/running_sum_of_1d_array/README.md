@@ -35,3 +35,10 @@ Return the running sum of `nums`.
 #### Constraints:
 - `1 <= nums.length <= 1000`
 - `-10^6 <= nums[i] <= 10^6`
+
+# Submission Detail
+**53 / 53** test cases passed.  
+Status: ***Accepted***  
+Runtime: **44 ms**, faster than **14.12%** of Python online submissions for Running Sum of 1d Array.  
+
+Memory Usage: **13.6 MB**, less than **39.74%** of Python online submissions for Running Sum of 1d Array.  
