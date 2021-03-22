@@ -40,5 +40,4 @@ Return the running sum of `nums`.
 **53 / 53** test cases passed.  
 Status: ***Accepted***  
 Runtime: **44 ms**, faster than **14.12%** of Python online submissions for Running Sum of 1d Array.  
-
 Memory Usage: **13.6 MB**, less than **39.74%** of Python online submissions for Running Sum of 1d Array.  
