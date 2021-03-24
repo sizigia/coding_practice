@@ -39,3 +39,9 @@ Kid 5 has 3 candies and if he or she receives at least 2 extra candies will have
 - `2 <= candies.length <= 100`
 - `1 <= candies[i] <= 100`
 - `1 <= extraCandies <= 50`
+
+# Submission Detail
+**103 / 103** test cases passed.  
+Status: ***Accepted***  
+Runtime: **24 ms**, faster than **76.37%** of Python online submissions for Kids With the Greatest Number of Candies.  
+Memory Usage: **13.4 MB**, less than **43.36%** of Python online submissions for Kids With the Greatest Number of Candies.
