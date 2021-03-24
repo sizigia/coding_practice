@@ -5,4 +5,6 @@ class Solution(object):
         :type extraCandies: int
         :rtype: List[bool]
         """
-        pass
+
+        greatest_n = max(candies)
+        return [(kid_candies + extraCandies) >= greatest_n for kid_candies in candies]
