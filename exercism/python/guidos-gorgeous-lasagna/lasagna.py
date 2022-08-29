@@ -4,11 +4,9 @@ Learn about Guido, the creator of the Python language: https://en.wikipedia.org/
 """
 
 EXPECTED_BAKE_TIME = 40
-# TODO: consider defining the 'PREPARATION_TIME' constant
-#       equal to the time it takes to prepare a single layer
+PREPARATION_TIME = 2
 
 
-# TODO: define the 'bake_time_remaining()' function
 def bake_time_remaining(elapsed_bake_time):
     """Calculate the bake time remaining.
 
@@ -23,8 +21,19 @@ def bake_time_remaining(elapsed_bake_time):
     return EXPECTED_BAKE_TIME - elapsed_bake_time
 
 
-# TODO: define the 'preparation_time_in_minutes()' function
-#       and consider using 'PREPARATION_TIME' here
+def preparation_time_in_minutes(n_layers):
+    """Calculate the time of preparation for the lasagna, 
+    depending on the number of layers you want to add to it.
+
+    :param n_layers: int - number of layers to add to the lasagna.
+    :return: int - preparation time (in minutes) derived from 'PREPARATION_TIME'.
+
+    Function that takes the number of layers you want to add to the lasagna as
+    an argument and returns how many minutes you would spend making it, 
+    based on the 'PREPARATION_TIME'.
+    """
+
+    return n_layers * PREPARATION_TIME
 
 
 # TODO: define the 'elapsed_time_in_minutes()' function
