@@ -16,22 +16,16 @@ def fizzbuzz(start=1, end=101):
     s = ""
     end += 1
 
-    for _ in range(start, end):
-        if _ % 3 == 0:
-            s += 'Fizz'
-
-        if _ % 5 == 0:
-            s += 'Buzz'
-
-        if len(s) == 0:
-            s = _
-
-        if _ == end:
-            return s
-
-        print(s)
-        s = ""
+    for i in range(start, end):
+        if i % 15 == 0:
+            print('FizzBuzz')
+        elif i % 3 == 0:
+            print('Fizz')
+        elif i % 5 == 0:
+            print('Buzz')
+        else:
+            print(i)
 
 
 if __name__ == "__main__":
-    fizzbuzz(8, 20)
+    fizzbuzz(8, 17)
