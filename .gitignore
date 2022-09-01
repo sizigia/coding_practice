@@ -4,3 +4,4 @@
 *.exercism
 *.vscode
 *.pytest_cache
+*.code-workspace
