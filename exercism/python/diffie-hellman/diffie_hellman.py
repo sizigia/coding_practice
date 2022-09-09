@@ -1,10 +1,13 @@
+import secrets
+
 def private_key(p):
-    pass
+    p_key = secrets.choice(range(1, p))
+    return p_key
 
 
 def public_key(p, g, private):
-    pass
+    return (g ** private) % p
 
 
 def secret(p, public, private):
-    pass
+    return (public ** private) % p
