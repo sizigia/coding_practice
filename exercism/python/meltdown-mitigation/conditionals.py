@@ -37,21 +37,21 @@ def reactor_efficiency(voltage, current, theoretical_max_power):
     where generated power = voltage * current
     """
 
-    e = 100 * voltage * current / theoretical_max_power
-    
+    efficiency = 100 * voltage * current / theoretical_max_power
+
     bands = {
         'G': 'green',
         'O': 'orange',
         'R': 'red',
         'B': 'black'
     }
-    
+
     color = ''
 
-    if e >= 60:
-        color = bands['GO'[e < 80 and e >= 60]]
+    if efficiency >= 60:
+        color = bands['GO'[efficiency < 80]]
     else:
-        color = bands['BR'[e < 60 and e >= 30]]
+        color = bands['BR'[efficiency >= 30]]
 
     return color
 
