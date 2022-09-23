@@ -5,3 +5,4 @@
 *.vscode
 *.pytest_cache
 *.code-workspace
+*.ipynb_checkpoints/
